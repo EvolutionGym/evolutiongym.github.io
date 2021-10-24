@@ -85,7 +85,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2021 MIT Computational Design & Fabrication Group. Distributed by an <a href=\"TODO:ADDLINK">MIT license.</a>"
+#footer_content: "Copyright &copy; 2021 MIT Computational Design & Fabrication Group. Distributed by an <a href=\"TODO:ADDLINK">MIT license.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
