@@ -69,6 +69,6 @@ The robot traverses a pit of rigid blocks to get to the other side without sinki
 
 ## CaveCrawler-v0
 
-The robot squeezes its way through caves and low-hanging obstacles. This task is <span style="color:medium">**medium**</span>.
+The robot squeezes its way through caves and low-hanging obstacles. This task is <span style="color:orange">**medium**</span>.
 
 ![traverserv0](../assets/images/ga_duck_1_g46_r2.gif)
