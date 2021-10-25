@@ -9,9 +9,6 @@ permalink: /all-tasks
 # All Tasks
 {: .no_toc }
 
-Add tasks description.
-{: .fs-6 .fw-300 }
-
 ## Table of contents
 {: .no_toc .text-delta }
 
