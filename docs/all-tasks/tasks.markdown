@@ -17,6 +17,16 @@ permalink: /all-tasks
 
 ---
 
+## Tasks Overview
+
+<br>
+
+<video width="100%" height="100%" autobuffer="autobuffer" autoplay="autoplay" loop="loop" controls="controls">
+    <source src="../assets/videos/evolution_gym.mpeg" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+
+---
+
 ## Walking Tasks
 
 <br>
