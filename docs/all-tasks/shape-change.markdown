@@ -5,7 +5,7 @@ nav_order: 5
 parent: All Tasks
 ---
 
-# Climbing
+# Shape Change
 {: .no_toc }
 
 The robot minimizes or maximizes its shape.
@@ -23,22 +23,22 @@ The robot minimizes or maximizes its shape.
 
 The robot grows to occupy the largest possible surface area. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![areamaxv0](../assets/images/ga_maximize_shape_1_g30_r1.gif)
 
 ## AreaMinimizer-v0
 
 The robot shrinks to occupy the smallest possible surface area. This task is <span style="color:orange">**medium**</span>.
 
-_ADD IMAGE HERE_
+![areaminv0](../assets/images/ga_minimize_shape_2_g30_r2.gif)
 
 ## WingspanMazimizer-v0
 
 The robot grows to be as wide as possible. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![areamaxxv0](../assets/images/ga_maximize_x_shape_3_g30_r2.gif)
 
 ## HeightMaximizer-v0
 
 The robot grows to be as tall as possible. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![areamaxyv0](../assets/images/ga_maximize_y_shape_1_g30_r1.gif)

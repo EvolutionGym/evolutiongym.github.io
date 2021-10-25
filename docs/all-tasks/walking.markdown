@@ -23,16 +23,16 @@ The robot walks forwards and backwards on relatively flat terrain.
 
 The robot pushes a box initialized in front of it. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![walkerv0](../assets/images/cppn_walking_flat_3_g7_r1.gif)
 
 ## BridgeWalker-v0
 
 The robot catches a box initialized on top of it and carries it as far as possible. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![bridgewalkerv0](../assets/images/ga_soft_bridge_2_g14_r2.gif)
 
 ## BidirectionalWalker-v0
 
 The robot throws a box initialized on top of it. This task is <span style="color:orange">**medium**</span>.
 
-_ADD IMAGE HERE_
+![biwalkerv0](../assets/images/ga_biwalk_2_g46_r1.gif)

@@ -5,7 +5,7 @@ nav_order: 4
 parent: All Tasks
 ---
 
-# Climbing
+# Locomotion
 {: .no_toc }
 
 The robot traverses different types of terrain including steps going up and down, bumpy terrain, terrain with obstacles, terrain with gaps and holes, and more.
@@ -23,52 +23,52 @@ The robot traverses different types of terrain including steps going up and down
 
 The robot climbs up stairs of varying lengths. This task is <span style="color:orange">**medium**</span>.
 
-_ADD IMAGE HERE_
+![upstepperv0](../assets/images/ga_steps_up_1_g46_r2.gif)
 
 ## DownStepper-v0
 
 The robot climbs down stairs of varying lengths. This task is <span style="color:green">**easy**</span>.
 
-_ADD IMAGE HERE_
+![downstepperv0](../assets/images/ga_steps_down_1_g30_r2.gif)
 
 ## ObstacleTraverser-v0
 
 The robot walks across terrain that gets increasingly more bumpy. This task is <span style="color:orange">**medium**</span>.
 
-_ADD IMAGE HERE_
+![obstacletraverserv0](../assets/images/ga_walking_bumpy_2_g46_r1.gif)
 
 ## ObstacleTraverser-v1
 
 The robot walks through very bumpy terrain. This task is <span style="color:red">**hard**</span>.
 
-_ADD IMAGE HERE_
+![obstacletraverserv1](../assets/images/ga_walking_bumpy1_3_g46_r2.gif)
 
 ## Hurdler-v0
 
 The robot walks across terrain with tall obstacles. This task is <span style="color:red">**hard**</span>.
 
-_ADD IMAGE HERE_
+![hurdlerv0](../assets/images/ga_vertical_barrier_1_g46_r3.gif)
 
 ## PlatformJumper-v0
 
 The robot traverses a series of floating platforms at different heights. This task is <span style="color:red">**hard**</span>.
 
-_ADD IMAGE HERE_
+![platformjumperv0](../assets/images/ga_floating_platform_2_g46_r1.gif)
 
 ## GapJumper-v0
 
 The robot traverses a series of spaced-out floating platforms all at the same height. This task is <span style="color:red">**hard**</span>.
 
-_ADD IMAGE HERE_
+![gapjumperv0](../assets/images/ga_gaps_3_g46_r1.gif)
 
 ## Traverser-v0
 
 The robot traverses a pit of rigid blocks to get to the other side without sinking into the pit. This task is <span style="color:red">**hard**</span>.
 
-_ADD IMAGE HERE_
+![traverserv0](../assets/images/cppn_block_soup_1_g19_r1.gif)
 
 ## CaveCrawler-v0
 
 The robot squeezes its way through caves and low-hanging obstacles. This task is <span style="color:medium">**medium**</span>.
 
-_ADD IMAGE HERE_
+![traverserv0](../assets/images/ga_duck_1_g46_r2.gif)
