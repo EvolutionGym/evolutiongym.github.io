@@ -12,7 +12,7 @@ permalink: /
 Evolution Gym is a toolkit for developing and comparing algorithms for co-optimizing design and control.
 {: .fs-6 .fw-300 }
 
-[View the Benchmark Suite](/tasks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Docs](/docs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download the Code](https://github.com/EvolutionGym){: .btn .fs-5 .mb-4 .mb-md-0 } 
+[View the Benchmark Suite](/all-tasks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Docs](/docs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download the Code](https://github.com/EvolutionGym){: .btn .fs-5 .mb-4 .mb-md-0 } 
 
 ---
 
