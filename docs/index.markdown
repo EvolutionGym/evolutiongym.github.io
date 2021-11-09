@@ -25,7 +25,7 @@ Furthermore, we develop several robot co-evolution algorithms by combining state
 
 Please explore our website for more information on our [environments](/all-tasks), [documentation](/docs), and [tutorials](/tutorials).
 
-## Stay tunedd!
+## Stay tuned!
 
 Our code and documentation will be finalized and released soon!  Feel free to sign up for our updates by filling out the form below.
 <br>
