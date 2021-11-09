@@ -24,3 +24,20 @@ In our benchmark, each robot is composed of different types of voxels (e.g., sof
 Furthermore, we develop several robot co-evolution algorithms by combining state-of-the-art design optimization methods and deep reinforcement learning techniques. Evaluating the algorithms on our benchmark platform, we observe robots exhibiting increasingly complex behaviors as evolution progresses, with the best evolved designs solving many of our proposed tasks. Additionally, even though robot designs are evolved autonomously from scratch without prior knowledge, they often grow to resemble existing natural creatures while outperforming hand-designed robots. Nevertheless, all tested algorithms fail to find robots that succeed in our hardest environments. This suggests that more advanced algorithms are required to explore the high dimensional design space and evolve increasingly intelligent robots - an area of research we hope Evolution Gym will accelerate progress in.
 
 Please explore our website for more information on our [environments](/all-tasks), [documentation](/docs), and [tutorials](/tutorials).
+
+## Stay tunedd!
+
+Our code and documentation will be finalized and released soon!  Feel free to sign up for our updates by filling out the form below.
+<br>
+
+<form
+  action="https://formspree.io/f/xvodjevb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
