@@ -12,7 +12,7 @@ permalink: /
 [Jagdeep Bhatia]()<sup>1</sup>, [Holly Jackson](https://www.holly-jackson.com/)<sup>1</sup>, [Yunsheng Tian](https://www.yunshengtian.com/)<sup>1</sup>, [Jie Xu](https://people.csail.mit.edu/jiex)<sup>1</sup>, & [Wojciech Matusik](https://people.csail.mit.edu/wojciech/)<sup>1</sup><br>
 <sup>1</sup>  Massachusetts Institute of Technology<br>
 
-[View the Benchmark Suite](/all-tasks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Docs](/documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download the Code](https://github.com/EvolutionGym){: .btn .fs-5 .mb-4 .mb-md-0 } 
+[View the Tasks](/all-tasks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Docs](/documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download the Code](https://github.com/EvolutionGym){: .btn .fs-5 .mb-4 .mb-md-0 } [Read the Paper](https://papers.nips.cc/paper/2021/file/118921efba23fc329e6560b27861f0c2-Paper.pdf){: .btn .fs-5 .mb-4 .mb-md-0 } 
 
 ---
 
