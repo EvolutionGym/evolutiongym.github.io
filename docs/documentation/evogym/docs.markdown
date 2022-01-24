@@ -2,12 +2,18 @@
 layout: default
 title: Documentation
 nav_order: 3
-has_children: false
+has_children: true
 permalink: /documentation
 ---
 
 # Documentation
 {: .no_toc }
+
+<!-- ## Table of contents
+{: .no_toc .text-delta } -->
+
+<!-- 1. TOC
+{:toc} -->
 
 ---
 
