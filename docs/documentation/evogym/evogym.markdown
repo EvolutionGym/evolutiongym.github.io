@@ -200,4 +200,36 @@ Returns a hashable representation of a robot.
 
 ---
 
+<a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
+## <kbd>constant</kbd> `BASELINE_ENV_NAMES`
+
+```
+BASELINE_ENV_NAMES: list[str]
+```
+
+List of all `32` evogym environment names. 
+
+---
+
+
+<a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
+## <kbd>constant</kbd> `VOXEL_TYPES`
+
+```
+VOXEL_TYPES: Dict[str, int] = {
+    'EMPTY': 0,
+    'RIGID': 1,
+    'SOFT': 2,
+    'H_ACT': 3,
+    'V_ACT': 4,
+    'FIXED': 5,
+}
+```
+
+Dictionary mapping voxel names to values. 
+
+---
+
 _This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._
