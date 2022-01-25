@@ -274,7 +274,7 @@ Observation helper-function. Computes the positions of a target object's point m
 get_time() → int
 ```
 
-Returns the current time as defined in the environment's simulator. Time starts at `0` and is incremented each time the environment steps. Time returns to `0` when the environment is reset. 
+Returns the current time as defined in the environment's simulator. Time starts at `0` and is incremented each time the environment steps. Time resets to `0` when the environment is reset. 
 
 
 
