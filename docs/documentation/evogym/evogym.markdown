@@ -23,10 +23,10 @@ parent: Documentation
 
 --- -->
 
-<a href="..\evogym\utils.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `get_uniform`
 
+## <kbd>function</kbd> `get_uniform` <a href="..\evogym\utils.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+{: .mt-6}
 ```
 get_uniform(x: int) → ndarray
 ```
@@ -48,9 +48,9 @@ Return a uniform distribution of a given size.
 
 ---
 
-<a href="..\evogym\utils.py#L67"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `draw`
+
+## <kbd>function</kbd> `draw` <a href="..\evogym\utils.py#L67"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 draw(pd: ndarray) → int
@@ -73,9 +73,9 @@ Sample from a probability distribution.
 
 ---
 
-<a href="..\evogym\utils.py#L89"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `sample_robot`
+
+## <kbd>function</kbd> `sample_robot` <a href="..\evogym\utils.py#L89"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 sample_robot(
@@ -102,9 +102,9 @@ Return a randomly sampled robot of a particular size.
 
 ---
 
-<a href="..\evogym\utils.py#L170"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `is_connected`
+
+## <kbd>function</kbd> `is_connected` <a href="..\evogym\utils.py#L170"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 is_connected(robot: ndarray) → bool
@@ -127,9 +127,9 @@ Returns whether or not a certain robot is connected by running floodfill.
 
 ---
 
-<a href="..\evogym\utils.py#L204"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `has_actuator`
+
+## <kbd>function</kbd> `has_actuator` <a href="..\evogym\utils.py#L204"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 has_actuator(robot: ndarray) → bool
@@ -150,9 +150,9 @@ Returns whether or not a certain robot has an actuator.
 
 ---
 
-<a href="..\evogym\utils.py#L220"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `get_full_connectivity`
+## <kbd>function</kbd> `get_full_connectivity` <a href="..\evogym\utils.py#L220"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+
 
 ```
 get_full_connectivity(robot: ndarray) → ndarray
@@ -175,9 +175,9 @@ Returns a connections array given a connected robot structure. Assumes all adjac
 
 ---
 
-<a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>function</kbd> `hashable`
+
+## <kbd>function</kbd> `hashable` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 hashable(robot: ndarray) → str
@@ -200,9 +200,9 @@ Returns a hashable representation of a robot.
 
 ---
 
-<a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>constant</kbd> `BASELINE_ENV_NAMES`
+
+## <kbd>constant</kbd> `BASELINE_ENV_NAMES` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 BASELINE_ENV_NAMES: list[str]
@@ -213,9 +213,9 @@ List of all `32` evogym environment names.
 ---
 
 
-<a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>constant</kbd> `VOXEL_TYPES`
+
+## <kbd>constant</kbd> `VOXEL_TYPES` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 VOXEL_TYPES: Dict[str, int] = {

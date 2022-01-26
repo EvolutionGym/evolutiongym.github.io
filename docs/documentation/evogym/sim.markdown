@@ -8,7 +8,7 @@ grand_parent: Documentation
 
 <!-- markdownlint-disable -->
 
-<!-- <a href="..\evogym\sim.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<!-- <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `sim`
 This module defines the EvoSim class which provides a clean interface to Evolution Gym's simulator. 
@@ -21,37 +21,24 @@ This module defines the EvoSim class which provides a clean interface to Evoluti
 
 --- -->
 
-<a href="..\evogym\sim.py#L15"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
-
-## <kbd>class</kbd> `EvoSim`
+## <kbd>class</kbd> `EvoSim` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L15"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+{: .mt-6}
 Create, step, reset, and get data from an Evolution Gym simulation. 
-
-
 
 **Args:**
  
  - <b>`world`</b> (EvoWorld):  object containing world voxel specification. 
 
-<a href="..\evogym\sim.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
-
-### <kbd>method</kbd> `__init__`
+### <kbd>method</kbd> `__init__` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L26"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 __init__(world: EvoWorld) → None
 ```
 
-
-
-
-
-
-
-
 ---
 
-<a href="..\evogym\sim.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_actuator_indices`
+### <kbd>method</kbd> `get_actuator_indices` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_actuator_indices(robot_name: str) → ndarray
@@ -73,9 +60,9 @@ Returns the voxel indices a target robot's actuators in the simulation.
 
 ---
 
-<a href="..\evogym\sim.py#L110"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_dim_action_space`
+
+### <kbd>method</kbd> `get_dim_action_space` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L110"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_dim_action_space(robot_name: str) → int
@@ -97,9 +84,9 @@ Returns the number of actuators for a target robot in the simulation.
 
 ---
 
-<a href="..\evogym\sim.py#L110"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_time`
+
+### <kbd>method</kbd> `get_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L32"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_time() → int
@@ -115,9 +102,9 @@ Returns the current time as defined in the simulator. Time starts at `0` and is 
 
 ---
 
-<a href="..\evogym\sim.py#L230"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `object_orientation_at_time`
+
+### <kbd>method</kbd> `object_orientation_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L230"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_orientation_at_time(time: int, object_name: str) → float
@@ -140,9 +127,9 @@ Returns an estimate of the orientation of an object at time `time`. Use `EvoSim.
 
 ---
 
-<a href="..\evogym\sim.py#L200"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `object_pos_at_time`
+
+### <kbd>method</kbd> `object_pos_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L200"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_pos_at_time(time: int, object_name: str) → ndarray
@@ -165,9 +152,9 @@ Returns positions of all point-masses in a target object at time `time`. Use `Ev
 
 ---
 
-<a href="..\evogym\sim.py#L215"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `object_vel_at_time`
+
+### <kbd>method</kbd> `object_vel_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L215"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_vel_at_time(time: int, object_name: str) → ndarray
@@ -190,9 +177,9 @@ Returns velocities of all point-masses in a target object at time `time`. Use `E
 
 ---
 
-<a href="..\evogym\sim.py#L174"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `pos_at_time`
+
+### <kbd>method</kbd> `pos_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L174"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 pos_at_time(time: int) → ndarray
@@ -214,9 +201,9 @@ Returns positions of all point-masses in the simulation at time `time`. Use `Evo
 
 ---
 
-<a href="..\evogym\sim.py#L245"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `reset`
+
+### <kbd>method</kbd> `reset` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L245"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 reset() → None
@@ -226,9 +213,9 @@ Reset the simulation to time `0`.
 
 ---
 
-<a href="..\evogym\sim.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_action`
+
+### <kbd>method</kbd> `set_action` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_action(robot_name: str, action: ndarray) → None
@@ -245,9 +232,9 @@ Set an action for a target robot. This function updates the robot's actuator tar
 
 ---
 
-<a href="..\evogym\sim.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `step`
+
+### <kbd>method</kbd> `step` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L32"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 step() → None
@@ -257,9 +244,9 @@ Step the simulation.
 
 ---
 
-<a href="..\evogym\sim.py#L187"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `vel_at_time`
+
+### <kbd>method</kbd> `vel_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/sim.py#L187"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 vel_at_time(time: int) → ndarray

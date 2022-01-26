@@ -8,7 +8,7 @@ grand_parent: Documentation
 
 <!-- markdownlint-disable -->
 
-<!-- <a href="..\evogym\world.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<!-- <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `world`
 This module defines the EvoWorld and WorldObject classes which provide a clean interface to store and manipulate objects in a Evolution Gym environment. 
@@ -21,14 +21,15 @@ This module defines the EvoWorld and WorldObject classes which provide a clean i
 
 --- -->
 
-<a href="..\evogym\world.py#L243"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>class</kbd> `WorldObject`
+
+## <kbd>class</kbd> `WorldObject` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L243"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+{: .mt-6}
 Store and manipulate objects in a Evolution Gym environment. 
 
-<a href="..\evogym\world.py#L248"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `__init__`
+
+### <kbd>method</kbd> `__init__` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L248"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 __init__() → None
@@ -43,9 +44,9 @@ __init__() → None
 
 ---
 
-<a href="..\evogym\world.py#L517"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `copy`
+
+### <kbd>method</kbd> `copy` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L517"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 copy() → WorldObject
@@ -61,9 +62,9 @@ Returns a copy of object.
 
 ---
 
-<a href="..\evogym\world.py#L286"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>classmethod</kbd> `from_array`
+
+### <kbd>classmethod</kbd> `from_array` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L286"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 from_array(
@@ -85,9 +86,9 @@ Load an object from array and return it.
 
 ---
 
-<a href="..\evogym\world.py#L257"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>classmethod</kbd> `from_json`
+
+### <kbd>classmethod</kbd> `from_json` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L257"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 from_json(file_path: 'str') → WorldObject
@@ -109,9 +110,9 @@ Load object from a `.json` environment specification file (these can be created 
 
 ---
 
-<a href="..\evogym\world.py#L474"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_connections`
+
+### <kbd>method</kbd> `get_connections` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L474"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_connections() → ndarray
@@ -123,9 +124,9 @@ Return:  np.ndarray: `(2, k)` array specifying `k` pairwise voxel connections. V
 
 ---
 
-<a href="..\evogym\world.py#L508"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_name`
+
+### <kbd>method</kbd> `get_name` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L508"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_name() → str
@@ -137,9 +138,9 @@ Return:  str: name of object.
 
 ---
 
-<a href="..\evogym\world.py#L490"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_pos`
+
+### <kbd>method</kbd> `get_pos` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L490"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_pos() → Tuple[int, int]
@@ -151,9 +152,9 @@ Return:  Tuple[int, int]: position of the object `(x, y)`.
 
 ---
 
-<a href="..\evogym\world.py#L465"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `get_structure`
+
+### <kbd>method</kbd> `get_structure` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L465"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_structure() → ndarray
@@ -165,9 +166,9 @@ Return:  np.ndarray: `(n, m)` array specifing the voxel structure of the object.
 
 ---
 
-<a href="..\evogym\world.py#L304"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `load_from_array`
+
+### <kbd>method</kbd> `load_from_array` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L304"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 load_from_array(
@@ -189,9 +190,9 @@ Load an object from array.
 
 ---
 
-<a href="..\evogym\world.py#L275"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `load_from_json`
+
+### <kbd>method</kbd> `load_from_json` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L275"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 load_from_json(file_path: 'str') → None
@@ -207,9 +208,9 @@ Load object from a `.json` environment specification file (these can be created 
 
 ---
 
-<a href="..\evogym\world.py#L367"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `load_from_parsed_json`
+
+### <kbd>method</kbd> `load_from_parsed_json` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L367"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 load_from_parsed_json(name: 'str', json_data: 'Any', grid_size: 'Pair') → None
@@ -227,9 +228,9 @@ Load object from parsed `json` data. It is recommended to use `WorldObject.load_
 
 ---
 
-<a href="..\evogym\world.py#L499"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `rename`
+
+### <kbd>method</kbd> `rename` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L499"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 rename(name: 'str') → None
@@ -245,9 +246,9 @@ Rename an object.
 
 ---
 
-<a href="..\evogym\world.py#L450"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_pos`
+
+### <kbd>method</kbd> `set_pos` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L450"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_pos(x: 'int', y: 'int') → None
@@ -264,9 +265,9 @@ Move an object. Objects retain their position when added to an instance of `EvoW
 
 ---
 
-<a href="..\evogym\world.py#L435"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `translate`
+
+### <kbd>method</kbd> `translate` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/world.py#L435"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 translate(dx: 'int', dy: 'int') → None

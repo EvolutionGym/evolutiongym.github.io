@@ -8,7 +8,7 @@ grand_parent: Documentation
 
 <!-- markdownlint-disable -->
 
-<!-- <a href="..\evogym\viewer.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<!-- <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `viewer`
 
@@ -19,9 +19,10 @@ grand_parent: Documentation
 
 --- -->
 
-<a href="..\evogym\viewer.py#L10"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>class</kbd> `EvoViewer`
+
+## <kbd>class</kbd> `EvoViewer` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L10"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+{: .mt-6}
 Visualize an Evolution Gym simulation. 
 
 
@@ -34,7 +35,7 @@ Visualize an Evolution Gym simulation.
  - <b>`view_size`</b> (Tuple[float, float]):  size of viewbox -- the number of voxels the camera can see `(w, h)`. (default = (40, 20))  
  - <b>`resolution`</b> (Tuple[int, int]):  resolution of image generated in pixels `(w, h)`. (default = (1200, 600)) 
 
-<a href="..\evogym\viewer.py#L21"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L21"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ### <kbd>method</kbd> `__init__`
 
@@ -57,9 +58,9 @@ __init__(
 
 ---
 
-<a href="..\evogym\viewer.py#L130"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `hide_debug_window`
+
+### <kbd>method</kbd> `hide_debug_window` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L130"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 hide_debug_window() → None
@@ -69,9 +70,9 @@ Make the debug window invisible.
 
 ---
 
-<a href="..\evogym\viewer.py#L190"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `render`
+
+### <kbd>method</kbd> `render` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L190"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 render(
@@ -105,9 +106,9 @@ Render the simulation.
 
 ---
 
-<a href="..\evogym\viewer.py#L53"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_pos`
+
+### <kbd>method</kbd> `set_pos` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L53"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_pos(pos: Tuple[float, float]) → None
@@ -123,9 +124,9 @@ Set position of camera.
 
 ---
 
-<a href="..\evogym\viewer.py#L92"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_resolution`
+
+### <kbd>method</kbd> `set_resolution` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L92"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_resolution(resolution: Tuple[int, int]) → None
@@ -141,9 +142,9 @@ Set resolution of image generated in pixels.
 
 ---
 
-<a href="..\evogym\viewer.py#L110"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_target_rps`
+
+### <kbd>method</kbd> `set_target_rps` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L110"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_target_rps(target_rps: Optional[int]) → None
@@ -159,9 +160,9 @@ Set the target render frequency, in renders per second.
 
 ---
 
-<a href="..\evogym\viewer.py#L146"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_tracking_settings`
+
+### <kbd>method</kbd> `set_tracking_settings` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L146"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_tracking_settings(**settings) → None
@@ -182,9 +183,9 @@ Adjust viewer object tracking settings.
 
 ---
 
-<a href="..\evogym\viewer.py#L72"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `set_view_size`
+
+### <kbd>method</kbd> `set_view_size` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L72"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 set_view_size(view_size: Tuple[float, float]) → None
@@ -200,9 +201,9 @@ Set size of viewbox -- the number of voxels the camera can see.
 
 ---
 
-<a href="..\evogym\viewer.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `show_debug_window`
+
+### <kbd>method</kbd> `show_debug_window` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L123"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 show_debug_window() → None
@@ -212,9 +213,9 @@ Make the debug window visible.
 
 ---
 
-<a href="..\evogym\viewer.py#L137"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>method</kbd> `track_objects`
+
+### <kbd>method</kbd> `track_objects` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/viewer.py#L137"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 track_objects(*objects: Tuple[str]) → None

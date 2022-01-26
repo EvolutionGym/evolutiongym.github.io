@@ -5,23 +5,22 @@ nav_order: 1
 parent: Tutorials
 ---
 
-<br/>
-
 # Getting Started
+{: .mt-6}
 
 Get started with the EvoGym codebase.
-<br/><br/>
 
 ## Download
+{: .mt-8}
 
 Clone the repo and submodules:
 
 ```shell
 git clone --recurse-submodules https://github.com/deepers14159/RobotAPI.git
 ```
-<br/>
 
 ## Requirements
+{: .mt-10}
 
 * Python 3.7/3.8
 * Linux, macOS, or Windows with [Visual Studios 2017](https://visualstudio.microsoft.com/vs/older-downloads/)
@@ -49,9 +48,8 @@ or with pip:
 pip install -r requirements.txt
 ```
 
-<br/>
-
 ## Build and Install Package
+{: .mt-10}
 
 To build the C++ simulation, build all the submodules, and install `evogym` run the following command:
 
@@ -59,9 +57,8 @@ To build the C++ simulation, build all the submodules, and install `evogym` run 
 python setup.py install
 ``` 
 
-<br/>
-
 ## Test Installation
+{: .mt-10}
 
 cd to the `examples` folder and run the following script:
 

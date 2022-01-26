@@ -6,9 +6,9 @@ parent: evogym
 grand_parent: Documentation
 ---
 
-<a href="..\evogym\base.py#L14"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-## <kbd>class</kbd> `EvoGymBase`
+## <kbd>class</kbd> `EvoGymBase` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L16"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+{: .mt-6}
 Base class for all Evolution Gym environments. 
 
 
@@ -17,9 +17,9 @@ Base class for all Evolution Gym environments.
  
  - <b>`world`</b> (EvoWorld):  object specifying the voxel layout of the environment. 
 
-<a href="..\evogym\envs\base.py#L23"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `__init__`
+
+### <kbd>function</kbd> `__init__` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L23"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 __init__(world: EvoWorld) → None
@@ -70,9 +70,9 @@ Completely unwrap this env.
 
 ---
 
-<a href="..\evogym\envs\base.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `close`
+
+### <kbd>function</kbd> `close` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L97"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 close() → None
@@ -82,9 +82,9 @@ Close the simulation.
 
 ---
 
-<a href="..\evogym\envs\base.py#L103"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_actuator_indices`
+
+### <kbd>function</kbd> `get_actuator_indices` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L103"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_actuator_indices(robot_name: str) → ndarray
@@ -106,9 +106,9 @@ Returns the voxel indices a target robot's actuators in the environment's simula
 
 ---
 
-<a href="..\evogym\envs\base.py#L306"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_ceil_obs`
+
+### <kbd>function</kbd> `get_ceil_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L306"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_ceil_obs(
@@ -138,9 +138,9 @@ Observation helper-function. Computes an observation describing the shape of the
 
 ---
 
-<a href="..\evogym\envs\base.py#L115"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_dim_action_space`
+
+### <kbd>function</kbd> `get_dim_action_space` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L115"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_dim_action_space(robot_name: str) → int
@@ -162,9 +162,9 @@ Returns the number of actuators for a target robot in the environment's simulati
 
 ---
 
-<a href="..\evogym\envs\base.py#L253"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_floor_obs`
+
+### <kbd>function</kbd> `get_floor_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L253"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_floor_obs(
@@ -194,9 +194,9 @@ Observation helper-function. Computes an observation describing the shape of the
 
 ---
 
-<a href="..\evogym\envs\base.py#L241"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_ort_obs`
+
+### <kbd>function</kbd> `get_ort_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L241"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_ort_obs(object_name: str)
@@ -218,9 +218,9 @@ Observation helper-function. Returns the orientation of a target object.
 
 ---
 
-<a href="..\evogym\envs\base.py#L199"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_pos_com_obs`
+
+### <kbd>function</kbd> `get_pos_com_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L199"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_pos_com_obs(object_name: str) → ndarray
@@ -242,9 +242,9 @@ Observation helper-function. Computes the position of the center of mass of a ta
 
 ---
 
-<a href="..\evogym\envs\base.py#L227"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_relative_pos_obs`
+
+### <kbd>function</kbd> `get_relative_pos_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L227"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_relative_pos_obs(object_name: str)
@@ -266,9 +266,9 @@ Observation helper-function. Computes the positions of a target object's point m
 
 ---
 
-<a href="..\evogym\envs\base.py#L127"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+ 
 
-### <kbd>function</kbd> `get_time`
+### <kbd>function</kbd> `get_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L127"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_time() → int
@@ -284,9 +284,9 @@ Returns the current time as defined in the environment's simulator. Time starts 
 
 ---
 
-<a href="..\evogym\envs\base.py#L213"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `get_vel_com_obs`
+
+### <kbd>function</kbd> `get_vel_com_obs` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L213"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 get_vel_com_obs(object_name: str) → ndarray
@@ -308,9 +308,9 @@ Observation helper-function. Computes the velocity of the center of mass of a ta
 
 ---
 
-<a href="..\evogym\envs\base.py#L186"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `object_orientation_at_time`
+
+### <kbd>function</kbd> `object_orientation_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L186"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_orientation_at_time(time: int, object_name: str) → float
@@ -333,9 +333,9 @@ Returns an estimate of the orientation of an object at time `time`. Use `EvoGymB
 
 ---
 
-<a href="..\evogym\envs\base.py#L160"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `object_pos_at_time`
+
+### <kbd>function</kbd> `object_pos_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L160"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_pos_at_time(time: int, object_name: str) → ndarray
@@ -358,9 +358,9 @@ Returns positions of all point-masses in a target object at time `time`. Use `Ev
 
 ---
 
-<a href="..\evogym\envs\base.py#L173"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `object_vel_at_time`
+
+### <kbd>function</kbd> `object_vel_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L173"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 object_vel_at_time(time: int, object_name: str) → ndarray
@@ -383,9 +383,9 @@ Returns velocities of all point-masses in a target object at time `time`. Use `E
 
 ---
 
-<a href="..\evogym\envs\base.py#L136"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `pos_at_time`
+
+### <kbd>function</kbd> `pos_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L136"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 pos_at_time(time: int) → ndarray
@@ -407,9 +407,9 @@ Returns positions of all point-masses in the environment's simulation at time `t
 
 ---
 
-<a href="..\evogym\envs\base.py#L74"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `render`
+
+### <kbd>function</kbd> `render` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L74"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 render(
@@ -443,9 +443,9 @@ Render the simulation.
 
 ---
 
-<a href="..\evogym\envs\base.py#L48"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `reset`
+
+### <kbd>function</kbd> `reset` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L48"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 reset() → None
@@ -455,9 +455,9 @@ Reset the simulation to the initial state.
 
 ---
 
-<a href="..\evogym\envs\base.py#L29"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `step`
+
+### <kbd>function</kbd> `step` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L29"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 step(action: Dict[str, ndarray]) → bool
@@ -479,9 +479,9 @@ Step the environment by running physcis computations.
 
 ---
 
-<a href="..\evogym\envs\base.py#L148"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
-### <kbd>function</kbd> `vel_at_time`
+
+### <kbd>function</kbd> `vel_at_time` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/envs/base.py#L148"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 vel_at_time(time: int) → ndarray
