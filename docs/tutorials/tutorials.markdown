@@ -15,5 +15,5 @@ permalink: /tutorials
 <!-- 1. TOC
 {:toc} -->
 
-Here are a few tutorials to make it easier to start working with EvoGym!
+Here are a few tutorials to make it easier to start working with EvoGym! Completed code for all tutorials can be found [here](https://github.com/EvolutionGym/evogym/tree/main/tutorials).
 
