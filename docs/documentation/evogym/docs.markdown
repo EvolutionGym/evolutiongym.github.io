@@ -14,7 +14,7 @@ Here you can find documentation for the EvoGym API!
 
 EvoGym consists of three main classes `EvoWorld`, `EvoSim`,  `EvoViewer`. `EvoWorld` specifies the initial state of any voxels & objects that make up an EvoGym environment. `EvoSim` is a steppable soft-body simulator which can be initialized from an `EvoWorld` instance. `EvoViewer` provides tools to visualize any `EvoSim`. The following code example shows how these classes interact with each other:
 
-```python
+```js
 from evogym import EvoWorld, EvoSim, EvoViewer
 
 world = EvoWorld.from_json('example_environment.json')

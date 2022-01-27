@@ -13,14 +13,14 @@ parent: Tutorials
 
 Create an EvoWorld object by loading a simple environment created with the [Evolution Gym Design Tool](https://github.com/EvolutionGym/evogym-design-tool).
 
-```python
+```js
 from evogym import EvoWorld, EvoSim, EvoViewer, sample_robot
 world = EvoWorld.from_json(os.path.join('world_data', 'simple_environment.json'))
 ```
 
 The best way to visualize EvoWorld environments is within the [Evolution Gym Design Tool](https://github.com/EvolutionGym/evogym-design-tool).  However, we can also visualize them with this handy function.
 
-```python
+```js
 world.pretty_print()
 ```
 
@@ -29,13 +29,13 @@ world.pretty_print()
 
 Let's create a randomly sampled 5x5 robot.
 
-```python
+```js
 robot_structure, robot_connections = sample_robot((5, 5))
 ```
 
 We can add the robot to our existing EvoWorld environment and specify its initialization position in 2D space.
 
-```python
+```js
 world.add_from_array(
 	name='robot',
 	structure=robot_structure,
@@ -48,14 +48,14 @@ world.add_from_array(
 {: .mt-10}
 We can create a simulation using from our EvoWorld environment.  This will initialize the simulation with the locations of all objects.
 
-```python
+```js
 sim = EvoSim(world)
 sim.reset()
 ```
 
 A viewer object will allow us to visualize our simulation. We've set the viewer to track both the `robot` and `box` objects in the simulation, so it will always keep them in frame.
 
-```python
+```js
 viewer = EvoViewer(sim)
 viewer.track_objects('robot', 'box')
 ```
@@ -65,7 +65,7 @@ viewer.track_objects('robot', 'box')
 
 To run the simulation, we use the following loop. In each iteration, we sample a random action vector for our simulation, step the simulation, and render it.
 
-```python
+```js
 while True:
 	sim.set_action(
 		'robot',
