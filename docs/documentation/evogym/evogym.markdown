@@ -9,7 +9,7 @@ parent: Documentation
 
 <!-- markdownlint-disable -->
 
-<!-- <a href="..\evogym\utils.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+<!-- <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L0"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 # <kbd>module</kbd> `utils`
 
@@ -25,7 +25,7 @@ parent: Documentation
 
 
 
-## <kbd>function</kbd> `get_uniform` <a href="..\evogym\utils.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `get_uniform` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L55"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 {: .mt-6}
 ```
 get_uniform(x: int) → ndarray
@@ -50,7 +50,7 @@ Return a uniform distribution of a given size.
 
 
 
-## <kbd>function</kbd> `draw` <a href="..\evogym\utils.py#L67"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `draw` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L67"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 draw(pd: ndarray) → int
@@ -75,7 +75,7 @@ Sample from a probability distribution.
 
 
 
-## <kbd>function</kbd> `sample_robot` <a href="..\evogym\utils.py#L89"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `sample_robot` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L89"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 sample_robot(
@@ -104,7 +104,7 @@ Return a randomly sampled robot of a particular size.
 
 
 
-## <kbd>function</kbd> `is_connected` <a href="..\evogym\utils.py#L170"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `is_connected` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L170"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 is_connected(robot: ndarray) → bool
@@ -129,7 +129,7 @@ Returns whether or not a certain robot is connected by running floodfill.
 
 
 
-## <kbd>function</kbd> `has_actuator` <a href="..\evogym\utils.py#L204"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `has_actuator` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L204"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 has_actuator(robot: ndarray) → bool
@@ -151,7 +151,7 @@ Returns whether or not a certain robot has an actuator.
 ---
 
 
-## <kbd>function</kbd> `get_full_connectivity` <a href="..\evogym\utils.py#L220"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `get_full_connectivity` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L220"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 
 ```
@@ -177,7 +177,7 @@ Returns a connections array given a connected robot structure. Assumes all adjac
 
 
 
-## <kbd>function</kbd> `hashable` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>function</kbd> `hashable` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 hashable(robot: ndarray) → str
@@ -202,7 +202,7 @@ Returns a hashable representation of a robot.
 
 
 
-## <kbd>constant</kbd> `BASELINE_ENV_NAMES` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>constant</kbd> `BASELINE_ENV_NAMES` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L17"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 BASELINE_ENV_NAMES: list[str]
@@ -215,7 +215,7 @@ List of all `32` evogym environment names.
 
 
 
-## <kbd>constant</kbd> `VOXEL_TYPES` <a href="..\evogym\utils.py#L259"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
+## <kbd>constant</kbd> `VOXEL_TYPES` <a href="https://github.com/EvolutionGym/evogym/blob/main/evogym/utils.py#L8"><img align="right" style="float:right;" src="https://img.shields.io/badge/-source-cccccc?style=flat-square"></a>
 
 ```
 VOXEL_TYPES: Dict[str, int] = {
