@@ -26,11 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evolutiongym.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+#theme: minima
 #theme: "just-the-docs" # for testing locally
-# remote_theme: pmarsceill/just-the-docs
-# remote_theme: GitbookIO/gitbook
-
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
