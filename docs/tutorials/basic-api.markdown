@@ -67,7 +67,7 @@ viewer.track_objects('robot', 'box')
 To run the simulation, we use the following loop. In each iteration, we sample a random action vector for our simulation, step the simulation, and render it.
 
 ```js
-while True:
+for i in range(500):
 	sim.set_action(
 		'robot',
 		np.random.uniform(
