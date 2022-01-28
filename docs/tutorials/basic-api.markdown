@@ -7,6 +7,7 @@ parent: Tutorials
 
 # Basic API Usage
 {: .mt-6}
+This tutorial explains the basics of using the EvoGym API. Completed code can be found [here](https://github.com/EvolutionGym/evogym/tree/main/tutorials).
 
 ## Creating an EvoWorld environment
 {: .mt-8}
