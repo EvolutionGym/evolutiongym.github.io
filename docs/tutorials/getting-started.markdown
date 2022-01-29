@@ -16,7 +16,7 @@ Get started with the EvoGym codebase.
 Clone the repo and submodules:
 
 ```shell
-git clone --recurse-submodules https://github.com/deepers14159/RobotAPI.git
+git clone --recurse-submodules https://github.com/EvolutionGym/evogym.git
 ```
 
 ## Requirements
