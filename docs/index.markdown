@@ -9,7 +9,7 @@ permalink: /
 # Evolution Gym: A Large-Scale Benchmark for Evolving Soft Robots
 {: .fs-9 }
 
-[Jagdeep Bhatia]()<sup>1</sup>, [Holly Jackson](https://www.holly-jackson.com/)<sup>1</sup>, [Yunsheng Tian](https://www.yunshengtian.com/)<sup>1</sup>, [Jie Xu](https://people.csail.mit.edu/jiex)<sup>1</sup>, & [Wojciech Matusik](https://people.csail.mit.edu/wojciech/)<sup>1</sup><br>
+[Jagdeep Bhatia](https://jagdeepsb.github.io/)<sup>1</sup>, [Holly Jackson](https://www.holly-jackson.com/)<sup>1</sup>, [Yunsheng Tian](https://www.yunshengtian.com/)<sup>1</sup>, [Jie Xu](https://people.csail.mit.edu/jiex)<sup>1</sup>, & [Wojciech Matusik](https://people.csail.mit.edu/wojciech/)<sup>1</sup><br>
 <sup>1</sup>  Massachusetts Institute of Technology<br>
 
 [View the Tasks](/all-tasks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Docs](/documentation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download the Code](https://github.com/EvolutionGym){: .btn .fs-5 .mb-4 .mb-md-0 } [Read the Paper](https://arxiv.org/pdf/2201.09863.pdf){: .btn .fs-5 .mb-4 .mb-md-0 } 
