@@ -30,7 +30,7 @@ Furthermore, we develop several robot co-evolution algorithms by combining state
 
 Please explore our website for more information on our [environments](/all-tasks), [documentation](/documentation), and [tutorials](/tutorials).
 
-## Stay tuned!
+<!-- ## Stay tuned!
 
 Our code and documentation will be finalized and released soon!  Feel free to sign up for our updates by filling out the form below.
 <br>
@@ -43,6 +43,5 @@ Our code and documentation will be finalized and released soon!  Feel free to si
     Your email:
     <input type="email" name="_replyto">
   </label>
-  <!-- your other form fields go here -->
   <button type="submit">Send</button>
-</form>
+</form> -->
