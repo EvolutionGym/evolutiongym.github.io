@@ -1,9 +1,26 @@
 ---
 layout: default
-title: evogym.envs
+title: evogym.envs.EvoGymBase
 nav_order: 5
-parent: evogym
+parent: evogym (subclasses + helpers)
 grand_parent: Documentation
+---
+
+# envs.EvoGymBase
+{: .no_toc }
+{: .mt-6}
+Extend this class for creating `gym`-like environments (inherits from `gym.Env`).
+
+Quicklinks: &nbsp; [EvoWorld](world.markdown), &nbsp; [EvoSim](sim.markdown), &nbsp; [EvoViewer](viewer.markdown), &nbsp; [WorldObject](worldobject.markdown), &nbsp; [envs.EvoGymBase](base.markdown), &nbsp; [helper functions and metadata](evogym.markdown)
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 

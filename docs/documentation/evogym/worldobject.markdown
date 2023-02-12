@@ -2,8 +2,25 @@
 layout: default
 title: evogym.WorldObject
 nav_order: 4
-parent: evogym
+parent: evogym (subclasses + helpers)
 grand_parent: Documentation
+---
+
+# WorldObject
+{: .no_toc }
+{: .mt-6}
+Helper class to store and manipulate objects in an `EvoWorld`.
+
+Quicklinks: &nbsp; [EvoWorld](world.markdown), &nbsp; [EvoSim](sim.markdown), &nbsp; [EvoViewer](viewer.markdown), &nbsp; [WorldObject](worldobject.markdown), &nbsp; [envs.EvoGymBase](base.markdown), &nbsp; [helper functions and metadata](evogym.markdown)
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 <!-- markdownlint-disable -->

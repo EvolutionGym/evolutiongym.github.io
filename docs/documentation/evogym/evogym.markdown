@@ -1,10 +1,27 @@
 ---
 layout: default
-title: evogym
+title: evogym (subclasses + helpers)
 has_children: true
 nav_order: 1
 # permalink: /documentation/evogym
 parent: Documentation
+---
+
+# EvoGym Helpers and Metadata
+{: .no_toc }
+{: .mt-6}
+Some helper functions and globals defined in the `evogym` package.
+
+Quicklinks: &nbsp; [EvoWorld](world.markdown), &nbsp; [EvoSim](sim.markdown), &nbsp; [EvoViewer](viewer.markdown), &nbsp; [WorldObject](worldobject.markdown), &nbsp; [envs.EvoGymBase](base.markdown), &nbsp; [helper functions and metadata](evogym.markdown)
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 <!-- markdownlint-disable -->

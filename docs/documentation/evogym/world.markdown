@@ -2,8 +2,25 @@
 layout: default
 title: evogym.EvoWorld
 nav_order: 1
-parent: evogym
+parent: evogym (subclasses + helpers)
 grand_parent: Documentation
+---
+
+# EvoWorld
+{: .no_toc }
+{: .mt-6}
+Specifies the initial state of any voxels & objects that make up an EvoGym environment.
+
+Quicklinks: &nbsp; [EvoWorld](world.markdown), &nbsp; [EvoSim](sim.markdown), &nbsp; [EvoViewer](viewer.markdown), &nbsp; [WorldObject](worldobject.markdown), &nbsp; [envs.EvoGymBase](base.markdown), &nbsp; [helper functions and metadata](evogym.markdown)
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 <!-- markdownlint-disable -->
