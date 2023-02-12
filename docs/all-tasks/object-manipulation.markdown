@@ -11,7 +11,9 @@ parent: All Tasks
 The robot interacts with another object to achieve its goal. Tasks include: carrying, pushing, throwing, catching, lifting, and more.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC

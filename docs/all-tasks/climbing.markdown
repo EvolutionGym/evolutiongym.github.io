@@ -11,7 +11,9 @@ parent: All Tasks
 The robot climbs upwards on varying types of terrain.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC

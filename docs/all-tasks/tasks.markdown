@@ -9,7 +9,9 @@ permalink: /all-tasks
 # All Tasks
 {: .no_toc }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC

@@ -6,8 +6,19 @@ parent: Tutorials
 ---
 
 # Creating a New Env
+{: .no_toc }
 {: .mt-6}
 This tutorial explains how to create, register, and use a new EvoGym environment. Completed code can be found [here](https://github.com/EvolutionGym/evogym/tree/main/tutorials).
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Introduction
 Let's get started! We're going to be making an environment for the "walking" task, similar to [`Walker-v0`](/all-tasks/walking.html#walker-v0). This tutorial assumes that you have followed setup instructions for both [EvoGym](https://github.com/EvolutionGym/evogym) and the [Evolution Gym Design Tool](https://github.com/EvolutionGym/evogym-design-tool).

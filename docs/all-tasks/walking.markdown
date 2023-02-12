@@ -11,7 +11,9 @@ parent: All Tasks
 The robot walks forwards and backwards on relatively flat terrain.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC

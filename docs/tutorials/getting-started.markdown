@@ -6,9 +6,19 @@ parent: Tutorials
 ---
 
 # Getting Started
+{: .no_toc }
 {: .mt-6}
-
 Get started with the EvoGym codebase.
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Download
 {: .mt-8}

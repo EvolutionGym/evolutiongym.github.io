@@ -6,8 +6,19 @@ parent: Tutorials
 ---
 
 # Basic API Usage
+{: .no_toc }
 {: .mt-6}
 This tutorial explains the basics of using the EvoGym API. Completed code can be found [here](https://github.com/EvolutionGym/evogym/tree/main/tutorials).
+
+---
+
+## Page Outline
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Creating an EvoWorld environment
 {: .mt-8}

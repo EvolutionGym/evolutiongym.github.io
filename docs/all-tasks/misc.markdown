@@ -11,7 +11,9 @@ parent: All Tasks
 Other miscellaneous tasks which include flipping, jumping, and balancing.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC

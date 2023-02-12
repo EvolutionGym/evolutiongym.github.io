@@ -11,7 +11,9 @@ parent: All Tasks
 The robot traverses different types of terrain including steps going up and down, bumpy terrain, terrain with obstacles, terrain with gaps and holes, and more.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+---
+
+## Page Outline
 {: .no_toc .text-delta }
 
 1. TOC
